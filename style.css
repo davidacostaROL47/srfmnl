@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.row {
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+html {
+    background-color: :#fff;
+    color: #000;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*----- Nav bar ----- */
+.nav-bar {
+    height: 70px;
+    background-color: black;
+    width: 100%;
+}
+
+.nav-logo {
+    margin-left: 20px;
+    padding-top: 10px;
+    display: block;
+    position:absolute;
+}
+
+.main-nav {
+    float:right;
+    list-style:none;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+.main-nav li {
+    color: grey;
+    display:inline;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 90%;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: grey;
+    text-decoration: none;
+      
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: white;
+
+}
+
+/*----- BANNER ----- */
+
+.banner{
+    background-image: url("images/banner\ image.jpg") ;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
