@@ -39,18 +39,19 @@ html {
 }
 
 .main-nav li {
-    color: grey;
+    color: rgb(206, 206, 206);
     display:inline;
     padding-right: 10px;
     text-transform: uppercase;
     font-size: 90%;
+    font-weight: 500;
 
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
-    color: grey;
+    color:rgb(206, 206, 206);
     text-decoration: none;
       
 }
@@ -96,7 +97,7 @@ html {
     text-decoration: none;
     background-color: black;
     border: 1px solid black;
-    color:#fff;
+    color: white;
     margin-top: 20px;
     border-radius: 5px;
     padding: 5px;
@@ -148,7 +149,9 @@ html {
     color: black 
 }
 
-
+.image {
+    width: 100%;
+}
 
 footer {
     text-align: center;
